@@ -1,0 +1,12 @@
+{
+  "uuid": "de006a37-91c6-4b40-aa83-cef9341a9ac2",
+  "name": "Training.Tests.UI.ContactPageTests",
+  "children": [
+    "33fa6482-dcb7-472b-8bf6-9e5356a13c7a"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1738853789815,
+  "stop": 1738853797681
+}

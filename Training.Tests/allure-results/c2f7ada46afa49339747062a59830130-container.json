@@ -1,0 +1,12 @@
+{
+  "uuid": "4b22173d-4c2d-47ca-b3e2-3e9a76bbe6a5",
+  "name": "Training.Tests.UI.ContactPageTests.CheckEmailValidationMessage",
+  "children": [
+    "268f2ce2-ef95-43a5-8007-5c1748bce3a5"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1738853367221,
+  "stop": 1738853405641
+}

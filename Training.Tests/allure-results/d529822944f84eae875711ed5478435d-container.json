@@ -1,0 +1,12 @@
+{
+  "uuid": "2765f927-4086-4524-a85e-e7a2f3504c4c",
+  "name": "Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk",
+  "children": [
+    "eef77220-79bb-4478-8843-39109064529d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1738853914658,
+  "stop": 1738853919395
+}

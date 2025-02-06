@@ -1,0 +1,45 @@
+{
+  "uuid": "327ef050-8fe3-474c-a2d5-d251cc4e84c2",
+  "historyId": "80a5c1e7412901f36a67335936207924",
+  "testCaseId": "e7e6e9a4d4b485f6b562d60a7d2f7e20",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.CheckEmailValidationMessage()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEmailValidationMessage"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckEmailValidationMessage",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738853888266,
+  "stop": 1738853903497
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "eef77220-79bb-4478-8843-39109064529d",
+  "historyId": "4f20c30f5482b9fa906ce2293d411533",
+  "testCaseId": "8fa96f2da0ed75d19851329ff1c8b749",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "MandatoryLabelContainsAsterisk"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "MandatoryLabelContainsAsterisk",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738853914658,
+  "stop": 1738853919392
+}

@@ -1,0 +1,45 @@
+{
+  "uuid": "65d0de5a-8d76-42ba-8a9b-0b32248c4bfa",
+  "historyId": "65130d7f7838acc2359397779d62947a",
+  "testCaseId": "097f5939633060dc90a4a04056fb66bf",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.CheckErrorMessageValidation()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckErrorMessageValidation"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckErrorMessageValidation",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738853817838,
+  "stop": 1738853825888
+}

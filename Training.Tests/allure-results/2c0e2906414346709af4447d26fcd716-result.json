@@ -1,0 +1,63 @@
+{
+  "uuid": "e34c7be2-f5d0-4dda-9702-6131ccf43462",
+  "historyId": "4f20c30f5482b9fa906ce2293d411533",
+  "testCaseId": "8fa96f2da0ed75d19851329ff1c8b749",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.SimpleWorkItem"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "MandatoryLabelContainsAsterisk"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "MandatoryLabelContainsAsterisk",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.Playwright.PlaywrightException : Locator expected to have text '*'\nBut was: '<element(s) not found>' \nCall log:\n  -   - LocatorAssertions.ToHaveTextAsync with timeout 15000ms\n  -   - waiting for Locator(\"#umbraco_form_3c139a6cca2a40048d9ef95bf8ae5b59\").Locator(\".workemail\").Locator(\".field-validation-error\")\n\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, FrameExpectOptions expectOptions, Object expected, String message) in /_/src/Playwright/Core/AssertionsBase.cs:line 86\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue[] expectedText, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 64\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue textValue, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 56\r\n   at Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 29\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\nTearDown : Microsoft.Playwright.PlaywrightException : Locator expected to have text '*'\nBut was: '<element(s) not found>' \nCall log:\n  -   - LocatorAssertions.ToHaveTextAsync with timeout 15000ms\n  -   - waiting for Locator(\"#umbraco_form_3c139a6cca2a40048d9ef95bf8ae5b59\").Locator(\".workemail\").Locator(\".field-validation-error\")\n\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, FrameExpectOptions expectOptions, Object expected, String message) in /_/src/Playwright/Core/AssertionsBase.cs:line 86\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue[] expectedText, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 64\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue textValue, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 56\r\n   at Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 29\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)",
+    "trace": "   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n\r\n--TearDown\r\n   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot_context_default.png",
+      "source": "c474caf3-39bf-4ec8-b15e-b93510c95af4-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "trace_context_default.zip",
+      "source": "e04a1c1b-6a77-4b39-b381-a91de6f6d4e8-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [],
+  "start": 1738853551731,
+  "stop": 1738853585571
+}

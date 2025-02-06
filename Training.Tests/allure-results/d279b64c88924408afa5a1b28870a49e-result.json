@@ -1,0 +1,52 @@
+{
+  "uuid": "90c95d18-df95-4630-84d9-3ead2cc8f9a5",
+  "historyId": "3ec63569a49833553c6f5e009e6067b5",
+  "testCaseId": "d816ff69c14480c82489a22c8391cef7",
+  "fullName": "Training.Tests:Training.Tests.UI.LandingPageTests.PageDisplayedCorrectly()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "PageDisplayedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "LandingPageTests"
+    }
+  ],
+  "links": [],
+  "name": "PageDisplayedCorrectly",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Collections.Generic.KeyNotFoundException : ENVIRONMENTURL is not configured.",
+    "trace": "   at VSBS.Insurance.Automation.Utils.ConfigUtils.GetConfigValue(String name, String defaultValue)\r\n   at VSBS.Insurance.Automation.Models.RunSettings.get_EnvironmentURL()\r\n   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerUtils.CreateContextOptions(String projectPath)\r\n   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.ContextOptions()\r\n   at Microsoft.Playwright.NUnit.ContextTest.ContextSetup() in /_/src/Playwright.NUnit/ContextTest.cs:line 37\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUp(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738874890757,
+  "stop": 1738874894588
+}

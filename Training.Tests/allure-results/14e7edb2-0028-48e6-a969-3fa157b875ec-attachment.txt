@@ -1,0 +1,1 @@
+2025-01-21 10:32:45.5684 | <AttachFiles>d__2.MoveNext | The screenshot cannot be taken for context context_default

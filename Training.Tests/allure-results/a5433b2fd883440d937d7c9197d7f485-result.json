@@ -1,0 +1,45 @@
+{
+  "uuid": "3f582295-5c4a-4651-89a8-7db01169a97e",
+  "historyId": "3ec63569a49833553c6f5e009e6067b5",
+  "testCaseId": "d816ff69c14480c82489a22c8391cef7",
+  "fullName": "Training.Tests:Training.Tests.UI.LandingPageTests.PageDisplayedCorrectly()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "PageDisplayedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "LandingPageTests"
+    }
+  ],
+  "links": [],
+  "name": "PageDisplayedCorrectly",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738874923595,
+  "stop": 1738874931925
+}

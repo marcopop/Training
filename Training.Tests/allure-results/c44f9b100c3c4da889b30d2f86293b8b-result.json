@@ -1,0 +1,45 @@
+{
+  "uuid": "519c994a-f8ec-4f3b-a391-2cb44a48a325",
+  "historyId": "57077a812629f5e0c19326784fb14446",
+  "testCaseId": "98d4512e6d03d2ff99035934b0b106b9",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.CheckEnquiryTypeDropdown()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEnquiryTypeDropdown"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckEnquiryTypeDropdown",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1738874195976,
+  "stop": 1738874200953
+}

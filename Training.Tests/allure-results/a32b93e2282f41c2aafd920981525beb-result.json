@@ -1,0 +1,63 @@
+{
+  "uuid": "268f2ce2-ef95-43a5-8007-5c1748bce3a5",
+  "historyId": "80a5c1e7412901f36a67335936207924",
+  "testCaseId": "e7e6e9a4d4b485f6b562d60a7d2f7e20",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.CheckEmailValidationMessage()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEmailValidationMessage"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "CheckEmailValidationMessage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TimeoutException : Timeout 30000ms exceeded.\nCall log:\n  -   - waiting for Locator(\"#username\") to be visible\n\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at VSBS.Insurance.Automation.Playwright.PageObjects.Element.Visible()\r\n   at VSBS.Insurance.Automation.PageObjects.LoginPage.Login(String username, String password)\r\n   at VSBS.Insurance.Automation.PageObjects.WebPage.NavigateTo(Boolean login, String username, String password)\r\n   at Training.Tests.UI.ContactPageTests.TestSetup() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 22\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUp(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\nTearDown : System.TimeoutException : Timeout 30000ms exceeded.\nCall log:\n  -   - waiting for Locator(\"#username\") to be visible\n\n   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](ChannelOwner object, String method, Dictionary`2 dictionary, Boolean keepNulls) in /_/src/Playwright/Transport/Connection.cs:line 206\r\n   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal) in /_/src/Playwright/Transport/Connection.cs:line 535\r\n   at VSBS.Insurance.Automation.Playwright.PageObjects.Element.Visible()\r\n   at VSBS.Insurance.Automation.PageObjects.LoginPage.Login(String username, String password)\r\n   at VSBS.Insurance.Automation.PageObjects.WebPage.NavigateTo(Boolean login, String username, String password)\r\n   at Training.Tests.UI.ContactPageTests.TestSetup() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 22\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUpOrTearDownMethod(TestExecutionContext context, IMethodInfo method)\r\n   at NUnit.Framework.Internal.Commands.SetUpTearDownItem.RunSetUp(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)",
+    "trace": "   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n\r\n--TearDown\r\n   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "screenshot_context_default.png",
+      "source": "c9ab3f89-608e-4f9f-834c-4ba098d0fab2-attachment",
+      "type": "image/png"
+    },
+    {
+      "name": "trace_context_default.zip",
+      "source": "33d3f125-e619-42a0-8b82-fa427014c4bd-attachment.zip",
+      "type": "application/zip"
+    }
+  ],
+  "parameters": [],
+  "start": 1738853367222,
+  "stop": 1738853405617
+}

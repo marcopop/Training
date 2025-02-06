@@ -1,0 +1,12 @@
+{
+  "uuid": "6b20e27f-1676-426d-aaed-009cb5ae08e0",
+  "name": "Training.Tests.UI.LandingPageTests.PageDisplayedCorrectly",
+  "children": [
+    "0719e5b9-fb81-4e27-8b80-5af7feddf590"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1737458879242,
+  "stop": 1737458891608
+}

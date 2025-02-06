@@ -1,0 +1,63 @@
+{
+  "uuid": "bfbb294a-bd25-4e5a-bd9e-5ac2cfec37da",
+  "historyId": "4f20c30f5482b9fa906ce2293d411533",
+  "testCaseId": "8fa96f2da0ed75d19851329ff1c8b749",
+  "fullName": "Training.Tests:Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "CPC-I4552-BPAA6"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "Training.Tests.UI"
+    },
+    {
+      "name": "testMethod",
+      "value": "MandatoryLabelContainsAsterisk"
+    },
+    {
+      "name": "testClass",
+      "value": "ContactPageTests"
+    }
+  ],
+  "links": [],
+  "name": "MandatoryLabelContainsAsterisk",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.Playwright.PlaywrightException : Locator expected to have text '*'\nBut was: '\n\n                                    \n                                        Company                                                        *\n                                    \n\n\n                                \n\n                                    \n\n\n\n\n\n\n                                \n\n                            ' \nCall log:\n  -   - LocatorAssertions.ToHaveTextAsync with timeout 15000ms\n  -   - waiting for Locator(\"#umbraco_form_3c139a6cca2a40048d9ef95bf8ae5b59\").Locator(\".company\")\n  -     14 × locator resolved to <div class=\" umbraco-forms-field company shortanswer mandatory alternating\">…</div>\n  -        - unexpected value \"\n\n                                    \n                                        Company                                                        *\n                                    \n\n\n                                \n\n                                    \n\n\n\n\n\n\n                                \n\n                            \"\n\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, FrameExpectOptions expectOptions, Object expected, String message) in /_/src/Playwright/Core/AssertionsBase.cs:line 86\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue[] expectedText, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 64\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue textValue, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 56\r\n   at Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 30\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\r\nTearDown : Microsoft.Playwright.PlaywrightException : Locator expected to have text '*'\nBut was: '\n\n                                    \n                                        Company                                                        *\n                                    \n\n\n                                \n\n                                    \n\n\n\n\n\n\n                                \n\n                            ' \nCall log:\n  -   - LocatorAssertions.ToHaveTextAsync with timeout 15000ms\n  -   - waiting for Locator(\"#umbraco_form_3c139a6cca2a40048d9ef95bf8ae5b59\").Locator(\".company\")\n  -     14 × locator resolved to <div class=\" umbraco-forms-field company shortanswer mandatory alternating\">…</div>\n  -        - unexpected value \"\n\n                                    \n                                        Company                                                        *\n                                    \n\n\n                                \n\n                                    \n\n\n\n\n\n\n                                \n\n                            \"\n\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, FrameExpectOptions expectOptions, Object expected, String message) in /_/src/Playwright/Core/AssertionsBase.cs:line 86\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue[] expectedText, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 64\r\n   at Microsoft.Playwright.Core.AssertionsBase.ExpectImplAsync(String expression, ExpectedTextValue textValue, Object expected, String message, FrameExpectOptions options) in /_/src/Playwright/Core/AssertionsBase.cs:line 56\r\n   at Training.Tests.UI.ContactPageTests.MandatoryLabelContainsAsterisk() in C:\\Users\\I45521\\source\\repos\\Training\\Training.Tests\\UI\\ContactPageTests.cs:line 30\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\r\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await[TResult](TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(TestExecutionContext context, Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)",
+    "trace": "   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n\r\n--TearDown\r\n   at VSBS.Insurance.Automation.Playwright.TestRunner.TestRunnerNUnit.MarkAsFail()\r\n"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "trace_context_default.zip",
+      "source": "d11c2da4-254b-4990-b6d2-d5239892a419-attachment.zip",
+      "type": "application/zip"
+    },
+    {
+      "name": "Console Output",
+      "source": "98435d67-68ca-4ac6-9745-40d15c3a7906-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1738853688540,
+  "stop": 1738853707377
+}
